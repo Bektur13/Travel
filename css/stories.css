@@ -1,0 +1,53 @@
+.stories{
+    margin-top: 300px;
+    position: relative;
+}
+.stories_top{
+    display: flex;
+    justify-content: space-between;
+}
+.stories__title {
+    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+}
+.stories__description {
+    font-family: 'Inter', sans-serif;
+    color: #7D7987;
+    width: 266px;
+    margin: 13px 0 23px 0;
+}
+.read {
+    color: #FB8F1D;
+    font-family: 'Inter', sans-serif;
+}
+.stories__content{
+    display: flex;
+    justify-content: space-between;
+}
+.stories__box img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 252px;
+    height: 233px;
+    margin-top: 50px;
+}
+.review__view {
+    margin-top: 0px;
+    margin-right: 15px;
+}
+.stories__circle {
+    position: absolute;
+    top: 380px;
+    left: 50px;
+}
+.stories__circle1 {
+    position: absolute;
+    top: 550px;
+    left: 850px;
+}
+.stories__plus {
+    position: absolute;
+    top: -50px;
+    left: 520px;
+    transform: rotate(8deg);
+}

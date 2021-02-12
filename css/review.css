@@ -1,0 +1,97 @@
+.review{
+    margin-top: 150px;
+    position: relative;
+}
+.review__content{
+    display: flex;
+    justify-content: space-between;
+}
+.box__star img{
+    margin-right: 10px;
+}
+.review_left{
+    margin-top: 150px;
+}
+.review__title{
+    font-size: 36px;
+}
+.review__description{
+    max-width: 300px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 25px;
+    margin: 30px 0 40px 0;
+}
+.review__name{
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.review__work{
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.85)
+}
+.wrapper {
+    width: 384px;
+    height: 491px;
+    position: relative;
+    margin: 50px auto;
+}
+.track {
+    display: flex;
+}
+.track img {
+    border-radius: 20px;
+}
+.arrows {
+    position: absolute;
+    content: "";
+    width: 132px;
+    height: 60px;
+    background: white;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.arrows button {
+    border: solid 1px black;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 13px;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    background: transparent;
+}
+.arrows button:hover {
+    background: black;
+    transition: 0.5s;
+    color: white;
+}
+.next {
+    margin-left: 15px;
+}
+.prev {
+    border: 2px solid #D7D7D7;
+    color: #D7D7D7;
+}
+
+.icons img{
+    position: absolute;
+    content: "";
+    width: 42px;
+    height: 42px;
+}
+.review__plus {
+    left: -15px;
+    top: 470px;
+    transform: rotate(8deg);
+}
+.review__circle {
+    right: -15px;
+    top: -15px;
+    z-index: -1;
+}

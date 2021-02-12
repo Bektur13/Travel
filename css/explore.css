@@ -1,0 +1,36 @@
+.explore{
+    margin-top: 300px;
+    position: relative;
+}
+.explore__content{
+    display: flex;
+    justify-content: space-between;
+}
+.explore__plus{
+    position: absolute;
+    top: 0;
+    left: 730px;
+}
+.explore__circle{
+    position: absolute;
+    top: 360px;
+    left: 1100px;
+}
+.explore_right{
+    margin-top: 80px;
+}
+.explore__img{
+    max-width: 600px;
+    max-height: 500px;
+}
+.explore__title{
+    font-size: 36px;
+    max-width: 400px;
+}
+.explore__description{
+    font-family: 'Mulish', sans-serif;
+    max-width: 400px;
+    margin: 20px 0 30px 0;
+    color: #7D7987;
+    line-height: 30px;
+}
