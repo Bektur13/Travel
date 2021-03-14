@@ -22,13 +22,13 @@
                     <a href="#" class="header__menu">Destinations</a>
                     <a href="#" class="header__menu">About</a>
                     <a href="#" class="header__menu">Partner</a>
-                    <button class="white__button">Login</button>
-                    <button class="orange__button">Register</button>
+                    <button class="header__menu white__button">Login</button>
+                    <button class="header__menu orange__button">Register</button>
                 </div>
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <section class="hero">
             <div class="container">
                 <div class="hero__content">
@@ -58,7 +58,9 @@
                         </div>
                         <button class="orange__button">Explore</button>
                     </div>
-                    <img class="hero__bigimg" src="./img/Big Image1.jpg" alt="Hero img">
+                    <div id="scene">
+                        <img data-depth="-.3" class="hero__bigimg" src="./img/Big Image1.jpg" alt="Hero img">
+                    </div>
                 </div>
             </div>
             <img class="hero__circle1 circle" src="./img/Small circle.svg" alt="Circle">
@@ -68,8 +70,8 @@
         <section class="explore">
             <div class="container">
                 <div class="explore__content">
-                    <div class="explore_left">
-                        <img class="explore__img" src="./img/Big img2.jpg" alt="Explore">
+                    <div class="explore_left" id="scene2">
+                        <img data-depth="-.3" class="explore__img" src="./img/Big img2.jpg" alt="Explore">
                     </div>
                     <div class="explore_right">
                         <h2 class="explore__title">A new way to explore the world </h2>
@@ -131,8 +133,8 @@
                             city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
                         <button class="orange__button">Download</button>
                     </div>
-                    <div class="guides_right">
-                        <img src="./img/Big img3.jpg" alt="Big img3">
+                    <div class="guides_right" id="scene3">
+                        <img data-depth="-.3" src="./img/Big img3.jpg" alt="Big img3">
                     </div>
                 </div>
             </div>
@@ -158,7 +160,7 @@
                     </div>
                     <div class="wrapper">
                         <div class="track">
-                            <img src="./img/Man.jpg" alt="man">
+                            <img class="img" src="./img/Man.jpg" alt="man">
                         </div>
                         <div class="arrows">
                             <button class="prev" disabled="true"><</button>
@@ -185,28 +187,28 @@
                 </div>
                 <div class="stories__content">
                     <div class="stories__box">
-                        <img src="./img/Yoga.jpg" alt="Yoga">
+                        <img class="img" src="./img/Yoga.jpg" alt="Yoga">
                         <h2 class="stories__title">The many benefits of <br>taking a healing holiday</h2>
                         <p class="stories__description">‘Helaing holidays’ are on the rise tohelp maximise your health
                             and happines...</p>
                         <p class="read">Read more</p>
                     </div>
                     <div class="stories__box">
-                        <img src="./img/Food.jpg" alt="Food">
+                        <img class="img" src="./img/Food.jpg" alt="Food">
                         <h2 class="stories__title">The best Kyoto restaurant <br> to try Japanese food</h2>
                         <p class="stories__description">From tofu to teahouses, here’s our guide to Kyoto’s best
                             restaurants to visit...</p>
                         <p class="read">Read more</p>
                     </div>
                     <div class="stories__box">
-                        <img src="./img/Oldbuilding.jpg" alt="Oldbuilding">
+                        <img class="img" src="./img/Oldbuilding.jpg" alt="Oldbuilding">
                         <h2 class="stories__title">Skip Chichen Itza and head <br> to this remote Yucatan</h2>
                         <p class="stories__description">It’s remote and challenging to get,but braving the jungle and
                             exploring these ruins without the...</p>
                         <p class="read">Read more</p>
                     </div>
                     <div class="stories__box">
-                        <img src="./img/Surfer.jpg" alt="Surfer">
+                        <img class="img" src="./img/Surfer.jpg" alt="Surfer">
                         <h2 class="stories__title">Surf’s up at these beginner <br> spots around the world</h2>
                         <p class="stories__description">If learning to surf has in on your to-do list for a while, the
                             good news is: it’s never too late...</p>
@@ -297,6 +299,9 @@
         </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
