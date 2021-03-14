@@ -51,3 +51,10 @@
     left: 520px;
     transform: rotate(8deg);
 }
+.img {
+    transition: 0.5s;
+    cursor: pointer;
+}
+.img:hover {
+    transform: scale(1.1);
+}
